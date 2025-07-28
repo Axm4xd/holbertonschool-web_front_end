@@ -735,7 +735,7 @@ ul.row {
 
 .post-meta-list strong {
     color: var(--color-primary);
-    font-size: small;
+    font-size: var(--font-size-small);
     text-transform: uppercase;
     display: block;
 }
