@@ -244,7 +244,8 @@
               <form>
                 <form>
                   <fieldset>
-                      <span class="form-field-container">
+                    <div class="form-field-container">
+                      <span>
                         <input
                           type="text"
                           name="your-first-name"
@@ -257,7 +258,7 @@
                           required
                         />
                       </span>
-                      <span class="form-field-container">
+                      <span>
                         <input
                           type="text"
                           name="your-last-name"
@@ -269,7 +270,7 @@
                           accesskey="l"
                           required
                         />
-                      </span class="form-field-container">
+                      </span>
                       <span>
                         <input
                           type="email"
@@ -283,13 +284,15 @@
                           required
                         />
                       </span>
+                    </div>
                     <legend class="visually-hidden">
                       Your personal information
                     </legend>
                   </fieldset>
 
                   <fieldset>
-                      <span class="form-field-container">
+                    <div class="form-field-container">
+                      <span>
                         <input
                           type="text"
                           name="your-title"
@@ -302,7 +305,7 @@
                           required
                         />
                       </span>
-                      <span class="form-field-container">
+                      <span>
                         <textarea
                           name="your-comment"
                           id="your-comment"
@@ -314,10 +317,11 @@
                           rows="6"
                         ></textarea>
                       </span>
-                    <legend class="visually-hidden">Your comment</legend>
-                    <button class="button button-primary">
-                      Post my comment
-                    </button>
+                      <legend class="visually-hidden">Your comment</legend>
+                      <button class="button button-primary">
+                        Post my comment
+                      </button>
+                    </div>
                   </fieldset>
                 </form>
               </form>
